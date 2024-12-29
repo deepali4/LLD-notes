@@ -112,6 +112,13 @@ Design patterns can be used for LLD
 -Observer to update the display board
 
 
+ - Concucerrency 
+   public synchronized void parkVehicle(Vehicle vehicle)
+   public synchronized void unparkVehicle() 
+- ReentrantLock 
+ - Concurrent Collections      private ConcurrentHashMap<Integer, String> parkingSpots = new ConcurrentHashMap<>();
+ - private AtomicInteger availableSpots;
+
 
 
 
